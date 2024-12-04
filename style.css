@@ -39,7 +39,10 @@
         text-decoration: none;
     }
 
-    
+li {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+}
     nav {
         display: flex;
         align-items: center;
@@ -51,6 +54,7 @@
         border-radius: 20px ;
     }
     ul{
+        gap: 45px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
