@@ -1,5 +1,5 @@
     body {
-        
+
         background: #301934;
         animation: lacouleurmagiquemmdr 2s infinite alternate;
     }
@@ -39,10 +39,11 @@
         text-decoration: none;
     }
 
-li {
-    font-family: "Roboto", serif;
-    font-weight: 900;
-}
+    li {
+        font-family: "Roboto", serif;
+        font-weight: 900;
+    }
+
     nav {
         display: flex;
         align-items: center;
@@ -51,13 +52,28 @@ li {
         padding: 15px 30px;
         position: sticky;
         top: 0;
-        border-radius: 20px ;
+        border-radius: 20px;
     }
-    ul{
+
+    ul {
         gap: 45px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+
+    .divreal {
+        color: #BDFFFF;
+    }
+
+
+    #first-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #C6FFBC;
     }
 
     h1 {
@@ -65,4 +81,27 @@ li {
         justify-content: center;
         font-family: "Roboto", serif;
         font-weight: 900;
+        color: black;
+        /*  */
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg,
+                #BA68C7 0%,
+                #663399 29%,
+                #8E399C 45%,
+                #702D7B 100%);
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: trovittexte 2s linear infinite;
+        display: inline-block;
+
+    }
+
+    @keyframes trovittexte {
+        to {
+            background-position: 200% center;
+        }
     }
