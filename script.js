@@ -5,7 +5,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
         }
         return response.json();
     })
-    .then(data => {
+    .then(data => {  // code starts here les amis (en dessous)
         let section1 = document.getElementById("first-container");
         let section2 = document.getElementById("realisations");
         let section3 = document.getElementById("temoignages");

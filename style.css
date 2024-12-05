@@ -115,7 +115,7 @@
         border: #99ff56 1px solid;
         margin-bottom: 100px;
         /* border-radius: 14px;  */
-        border-radius: 0px 118px / 153px;
+        border-radius: 10px;
         margin: 50px;
         padding: 50px;
         box-shadow: 4px 6px 6px #99ff56a3;
