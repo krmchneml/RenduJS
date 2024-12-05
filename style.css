@@ -37,6 +37,7 @@
     a {
         color: inherit;
         text-decoration: none;
+        transition: all ease 300ms;
     }
 
     li {
@@ -160,7 +161,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: #C6FFBC;
+        color: #ffffff;
     }
 
     .ohiocontainer {
@@ -168,19 +169,25 @@
         flex-direction: row;
         gap: 20px;
         font-weight: 900;
-        font-size: large;
-        color: #ffffff;
+        font-size: larger;
+        color: #99ff56;
     }
 
     button {
+        font-family: "Roboto", serif;
+        font-weight: 900;
         border-radius: 10px 100px / 120px;
         background-color: #c7c7c7;
         padding: 20px;
         border: #000000 1.5px solid;
+        width: 35%;
+        transition: all ease 300ms;
     }
 
     button:hover {
-       
+        transform: scale(1.05);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        color: #fffbf6;
         animation: ohiorizz 2s infinite alternate;
     }
 
@@ -205,3 +212,9 @@
             background-color: #aa32aa;
         }
     }
+
+
+a:hover {
+    transform: scale(1.145);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
