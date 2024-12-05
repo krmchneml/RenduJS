@@ -114,7 +114,8 @@
         flex-wrap: wrap;
         border: #99ff56 1px solid;
         margin-bottom: 100px;
-        border-radius: 14px;
+        /* border-radius: 14px;  */
+        border-radius: 0px 118px / 153px;
         margin: 50px;
         padding: 50px;
         box-shadow: 4px 6px 6px #99ff56a3;
@@ -168,7 +169,7 @@
         font-family: "Roboto", serif;
         font-weight: 900;
         font-size: larger;
-        border-radius: 10px 100px / 120px;
+        border-radius: 0px 118px / 153px;
         background-color: #ffffff;
         padding: 20px;
         border: #000000 1.5px solid;
