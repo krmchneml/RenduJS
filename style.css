@@ -291,6 +291,8 @@
 }
 
 .fa-solid {
-    color: whitesmoke;
-    
+    color: yellow;
+    position: relative;
+    top: -27.5px;
+    left: 27.5px;
 }
