@@ -160,7 +160,8 @@
         font-size: larger;
         color: #99ff56;
         text-align: center;
-        
+        margin-top: 32px;
+
     }
 
     button {
@@ -168,7 +169,7 @@
         font-weight: 900;
         font-size: larger;
         border-radius: 10px 100px / 120px;
-        background-color:   #ffffff;
+        background-color: #ffffff;
         padding: 20px;
         border: #000000 1.5px solid;
         width: 25%;
@@ -243,10 +244,10 @@
         transition: all ease 300ms;
         width: 33.5vw;
         margin-right: -20px;
+
     }
 
-    .div:last-child {
-    }
+    .div:last-child {}
 
     .divtem:hover {
         transform: scale(1.001);
@@ -262,37 +263,38 @@
         font-weight: 700;
     }
 
-.h2real {
-    color: white;
-    transition: all ease 300ms;
+    .h2real {
+        color: white;
+        transition: all ease 300ms;
 
-}
-.h2real:hover {
-    box-shadow: 6px 7px 64px #8AEB4B;
-    background-color: #8AEB4B;
-    color: black;
-    border-radius: 4px;
+    }
 
-}
-    
-#p3tem {
-    font-size: x-large;
-}
+    .h2real:hover {
+        box-shadow: 6px 7px 64px #8AEB4B;
+        background-color: #8AEB4B;
+        color: black;
+        border-radius: 4px;
 
-#h2tem {
-    font-size: xx-large;
-}
+    }
 
-#temoignages {
-    background-color: #8AEB4B;
-    border-radius: px;
-    padding: 20px;
-    border: #69046d solid 5px;
-}
+    #p3tem {
+        font-size: x-large;
+    }
 
-.fa-solid {
-    color: yellow;
-    position: relative;
-    top: -27.5px;
-    left: 27.5px;
-}
+    #h2tem {
+        font-size: xx-large;
+    }
+
+    #temoignages {
+        background-color: #8AEB4B;
+        border-radius: px;
+        padding: 20px;
+        border: #69046d solid 5px;
+    }
+
+    .fa-solid {
+        color: yellow;
+        position: relative;
+        top: -27.5px;
+        left: 27.5px;
+    }
