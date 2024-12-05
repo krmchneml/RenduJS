@@ -1,12 +1,12 @@
     body {
 
         background: #301934;
-        animation: lacouleurmagiquemmdr 2s infinite alternate;
+        animation: lacouleurmagiquemmdr 8s infinite alternate;
     }
 
     @keyframes lacouleurmagiquemmdr {
         0% {
-            background-color: #52215A;
+            background-color: #301934;
         }
 
         25% {
@@ -42,17 +42,31 @@
     li {
         font-family: "Roboto", serif;
         font-weight: 900;
+        /*  après ya lanim en dessous */
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg,
+                #5b3561 0%,
+                #843eca 29%,
+                #c752da 75%,
+                #dddddd 100%);
+        background-size: 200% auto;
+        color: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: trovittexte 2s linear infinite;
+        display: inline-block;
     }
 
     nav {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #8a8585;
+        background-color: #69046d;
         padding: 15px 30px;
         position: sticky;
         top: 0;
         border-radius: 20px;
+        /* en dessous ya lanim de la nav */
     }
 
     ul {
@@ -63,36 +77,20 @@
     }
 
 
-    .divreal {
-        color: #BDFFFF;
-    }
-
-
-    #first-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #C6FFBC;
-    }
 
     h1 {
-        display: flex;
-        justify-content: center;
         font-family: "Roboto", serif;
         font-weight: 900;
-        color: black;
-        /*  */
+
+        /*  après ya lanim en dessous */
         text-transform: uppercase;
         background-image: linear-gradient(-225deg,
-                #BA68C7 0%,
-                #663399 29%,
-                #8E399C 45%,
-                #702D7B 100%);
-        background-clip: border-box;
+                #5b3561 0%,
+                #4b2472 29%,
+                #c752da 45%,
+                #dddddd 100%);
         background-size: 200% auto;
         color: #fff;
-        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: trovittexte 2s linear infinite;
@@ -103,5 +101,107 @@
     @keyframes trovittexte {
         to {
             background-position: 200% center;
+        }
+    }
+
+
+    .divreal {
+        font-family: "Roboto", serif;
+        color: #331a4d;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        border: #000000 3.76px solid;
+        margin-bottom: 20px;
+        border-radius: 14px;
+        /* anim apres ca  */
+        background: #30D5C8;
+        animation: mespetitecartes 7s infinite alternate;
+    }
+
+    @keyframes mespetitecartes {
+        0% {
+            background-color: #40e0d0;
+        }
+
+        25% {
+            background-color: #38c2b9;
+        }
+
+        50% {
+            background-color: #a4fff9;
+        }
+
+        75% {
+            background-color: #69a39d;
+        }
+
+        100% {
+            background-color: #4fbbb0;
+        }
+    }
+
+
+    #first-container {
+
+        color: #47ebe0;
+    }
+
+    #trucs {
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
+
+    }
+
+    #first-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #C6FFBC;
+    }
+
+    .ohiocontainer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-weight: 900;
+        font-size: large;
+        color: #ffffff;
+    }
+
+    button {
+        border-radius: 10px 100px / 120px;
+        background-color: #c7c7c7;
+        padding: 20px;
+        border: #000000 1.5px solid;
+    }
+
+    button:hover {
+       
+        animation: ohiorizz 2s infinite alternate;
+    }
+
+    @keyframes ohiorizz {
+        0% {
+            background-color: #ce76db;
+        }
+
+        25% {
+            background-color: #b14abe;
+        }
+
+        50% {
+            background-color: #af42c5;
+        }
+
+        75% {
+            background-color: #7b3585;
+        }
+
+        100% {
+            background-color: #aa32aa;
         }
     }
