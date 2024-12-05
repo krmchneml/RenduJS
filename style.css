@@ -64,6 +64,7 @@
         top: 0;
         border-radius: 20px;
         z-index: 10;
+        margin-bottom: 120px;
         /* en dessous ya lanim de la nav */
     }
 
@@ -79,6 +80,8 @@
     h1 {
         font-family: "Roboto", serif;
         font-weight: 900;
+        font-size: xxx-large;
+        margin-bottom: 0;
 
         /*  après ya lanim en dessous */
         text-transform: uppercase;
@@ -102,25 +105,29 @@
         }
     }
 
+
     .divreal {
-        font-family: "Roboto", serif;
-        color: #331a4d;
+        font-family: "Fjalla One", sans-serif;
+        color: rgba(255, 255, 255, 0.843);
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
         flex-wrap: wrap;
-        border: #99ff56 3.76px solid;
+        border: #99ff56 1px solid;
         margin-bottom: 100px;
         border-radius: 14px;
-        /* anim apres ca  */
-        background: #8fafad;
-        animation: mespetitecartes 7s infinite alternate;
+        margin: 50px;
+        padding: 50px;
+        box-shadow: 4px 6px 6px #99ff56a3;
     }
 
     .p2real {
         font-size: x-large;
-        font-weight: 1000;
-        color: #2a411c;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.843);
+        margin-left: 5%;
+        text-align: center;
+        margin-right: 5%;
     }
 
 
@@ -148,10 +155,12 @@
     .ohiocontainer {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 45px;
         font-weight: 900;
         font-size: larger;
         color: #99ff56;
+        text-align: center;
+        
     }
 
     button {
@@ -164,6 +173,8 @@
         border: #000000 1.5px solid;
         width: 25%;
         transition: all ease 300ms;
+        margin-top: 32px;
+        margin-bottom: 16px;
     }
 
     button:hover {
@@ -207,6 +218,11 @@
         gap: 20px;
     }
 
+    img {
+        border-radius: 8px;
+        width: 500px;
+    }
+
     .divtem {
         /* display: flex;
     flex-direction: column;
@@ -223,16 +239,18 @@
         padding: 25px;
         background-color: #8AEB4B;
         color: #53195D;
-        border-radius: 10px;
-        box-shadow: 5px 5px 12px 1px rgb(134 134 147 / 50%);
+        border-right: #69046d 1px solid;
         transition: all ease 300ms;
         width: 33.5vw;
+        margin-right: -20px;
     }
 
+    .div:last-child {
+    }
 
     .divtem:hover {
-        transform: scale(1.01);
-        box-shadow: 0 10px 13px #bdb9bd;
+        transform: scale(1.001);
+        border: #69046d 1px solid;
     }
 
     #h3tem {
@@ -240,14 +258,39 @@
     }
 
     #h4tem {
-        font-size: larger;
+        font-size: x-large;
         font-weight: 700;
     }
 
 .h2real {
     color: white;
+    transition: all ease 300ms;
+
+}
+.h2real:hover {
+    box-shadow: 6px 7px 64px #8AEB4B;
+    background-color: #8AEB4B;
+    color: black;
+    border-radius: 4px;
+
 }
     
 #p3tem {
     font-size: x-large;
+}
+
+#h2tem {
+    font-size: xx-large;
+}
+
+#temoignages {
+    background-color: #8AEB4B;
+    border-radius: px;
+    padding: 20px;
+    border: #69046d solid 5px;
+}
+
+.fa-solid {
+    color: whitesmoke;
+    
 }

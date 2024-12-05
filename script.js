@@ -63,12 +63,16 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
             h4.setAttribute("id", "h4tem");
             let p3tem = document.createElement("p");
             let h2tem = document.createElement("h2");
+            h2tem.setAttribute("class", "h2tem");
             h3.textContent = element.prenom;
             h4.textContent = element.typePrestation;
             p3tem.textContent = element.commentaire;
             p3tem.setAttribute("id", "p3tem");
             h2tem.textContent = element.note;
             section3.appendChild(divtem);
+            let star2 = document.createElement("div");
+            star2.innerHTML=`<i class="fa-solid fa-star"></i>`;
+            h2tem.appendChild(star2);
             divtem.appendChild(h3);
             divtem.appendChild(h4);
             divtem.appendChild(p3tem);
