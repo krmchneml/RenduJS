@@ -64,7 +64,6 @@
         top: 0;
         border-radius: 20px;
         z-index: 10;
-        margin-bottom: 120px;
         /* en dessous ya lanim de la nav */
     }
 
@@ -150,6 +149,7 @@
         justify-content: center;
         align-items: center;
         color: #ffffff;
+        padding: 120px 24px;
     }
 
     .ohiocontainer {
@@ -247,7 +247,10 @@
 
     }
 
-    .div:last-child {}
+    .divtem:last-child {
+        border-right: none;
+
+    }
 
     .divtem:hover {
         transform: scale(1.001);
@@ -290,6 +293,10 @@
         border-radius: px;
         padding: 20px;
         border: #69046d solid 5px;
+    }
+
+    #realisations {
+        padding-bottom: 120px;
     }
 
     .fa-solid {
