@@ -53,10 +53,12 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
 
         data.temoignages.forEach(element => {
             let divtem = document.createElement("div");
+            divtem.setAttribute("class", "divtem");
             let h3 = document.createElement("h3");
-            h3.setAttribute("class", "");
+            h3.setAttribute("id", "h3tem");
 
             let h4 = document.createElement("h4");
+            h4.setAttribute("id", "h4tem");
             let p3tem = document.createElement("p");
             let h2tem = document.createElement("h2");
             h3.textContent = element.prenom;
