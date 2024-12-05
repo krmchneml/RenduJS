@@ -40,6 +40,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
             let div = document.createElement("div");
             div.setAttribute("class", "divreal");
             let h2real = document.createElement("h2");
+            h2real.setAttribute("class", "h2real");
             let p2real = document.createElement("p");
             p2real.setAttribute("class", "p2real");
             let imgreal = document.createElement("img");
@@ -65,6 +66,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
             h3.textContent = element.prenom;
             h4.textContent = element.typePrestation;
             p3tem.textContent = element.commentaire;
+            p3tem.setAttribute("id", "p3tem");
             h2tem.textContent = element.note;
             section3.appendChild(divtem);
             divtem.appendChild(h3);

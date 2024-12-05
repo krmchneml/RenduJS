@@ -42,9 +42,9 @@
         /*  après ya lanim en dessous */
         text-transform: uppercase;
         background-image: linear-gradient(-225deg,
-                #5b3561 0%,
-                #843eca 29%,
-                #c752da 75%,
+                #91549b 0%,
+                #9848e9 29%,
+                #ed74ff 75%,
                 #dddddd 100%);
         background-size: 200% auto;
         color: #fff;
@@ -118,7 +118,8 @@
     }
 
     .p2real {
-        font-weight: 800;
+        font-size: x-large;
+        font-weight: 1000;
         color: #2a411c;
     }
 
@@ -161,36 +162,36 @@
         background-color:   #ffffff;
         padding: 20px;
         border: #000000 1.5px solid;
-        width: 35%;
+        width: 25%;
         transition: all ease 300ms;
     }
 
     button:hover {
-        transform: scale(1.05);
+        transform: scale(1.037);
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-        color: #fffbf6;
-        animation: ohiorizz 6s infinite alternate;
+        color: #ffffff;
+        animation: ohiorizz 3s infinite alternate;
     }
 
     @keyframes ohiorizz {
         0% {
-            background-color: #589232;
+            background-color: #99ff56;
         }
 
         25% {
-            background-color: #2b4e14;
+            background-color: #83d84b;
         }
 
         50% {
-            background-color: #365c1c;
+            background-color: #7ac945;
         }
 
         75% {
-            background-color: #37790b;
+            background-color: #71bb40;
         }
 
         100% {
-            background-color: #3f5f29;
+            background-color: #99ff56;
         }
     }
 
@@ -243,5 +244,10 @@
         font-weight: 700;
     }
 
-
+.h2real {
+    color: white;
+}
     
+#p3tem {
+    font-size: x-large;
+}
