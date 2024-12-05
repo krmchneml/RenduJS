@@ -254,7 +254,7 @@
     }
 
     .divtem:hover {
-        transform: scale(1.001);
+        transform: scale(1.01);
         border: #69046d 1px solid;
     }
 
@@ -291,8 +291,8 @@
 
     #temoignages {
         background-color: #8AEB4B;
-        border-radius: px;
-        padding: 20px;
+        border-radius: 17px;
+        padding: 40px;
         border: #69046d solid 5px;
     }
 
