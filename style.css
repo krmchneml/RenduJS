@@ -1,7 +1,7 @@
     body {
 
         background: #301934;
-        animation: lacouleurmagiquemmdr 8s infinite alternate;
+        animation: lacouleurmagiquemmdr 3s infinite alternate;
     }
 
     @keyframes lacouleurmagiquemmdr {
@@ -10,25 +10,21 @@
         }
 
         25% {
-            background-color: #702D7B;
+            background-color: #2c1230;
         }
 
         50% {
-            background-color: #8E399C;
+            background-color: #451d4b;
         }
 
         75% {
-            background-color: #AB47BB;
+            background-color: #53235a;
         }
 
         100% {
-            background-color: #BA68C7;
+            background-color: #48294d;
         }
     }
-
-
-
-
 
     ul {
         list-style: none;
@@ -89,8 +85,8 @@
         background-image: linear-gradient(-225deg,
                 #8AEB4B 0%,
                 #4b2472 29%,
-                #40e0d0 45%,
-                #dddddd 100%);
+                #99ff56 45%,
+                #6b32a3 100%);
         background-size: 200% auto;
         color: #fff;
         -webkit-background-clip: text;
@@ -106,7 +102,6 @@
         }
     }
 
-
     .divreal {
         font-family: "Roboto", serif;
         color: #331a4d;
@@ -114,35 +109,19 @@
         justify-content: center;
         flex-direction: row-reverse;
         flex-wrap: wrap;
-        border: #000000 3.76px solid;
-        margin-bottom: 20px;
+        border: #99ff56 3.76px solid;
+        margin-bottom: 100px;
         border-radius: 14px;
         /* anim apres ca  */
-        background: #30D5C8;
+        background: #8fafad;
         animation: mespetitecartes 7s infinite alternate;
     }
 
-    @keyframes mespetitecartes {
-        0% {
-            background-color: #40e0d0;
-        }
-
-        25% {
-            background-color: #38c2b9;
-        }
-
-        50% {
-            background-color: #a4fff9;
-        }
-
-        75% {
-            background-color: #69a39d;
-        }
-
-        100% {
-            background-color: #4fbbb0;
-        }
+    .p2real {
+        font-weight: 800;
+        color: #2a411c;
     }
+
 
 
     #first-container {
@@ -177,8 +156,9 @@
     button {
         font-family: "Roboto", serif;
         font-weight: 900;
+        font-size: larger;
         border-radius: 10px 100px / 120px;
-        background-color: #c7c7c7;
+        background-color:   #ffffff;
         padding: 20px;
         border: #000000 1.5px solid;
         width: 35%;
@@ -189,28 +169,28 @@
         transform: scale(1.05);
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
         color: #fffbf6;
-        animation: ohiorizz 2s infinite alternate;
+        animation: ohiorizz 6s infinite alternate;
     }
 
     @keyframes ohiorizz {
         0% {
-            background-color: #ce76db;
+            background-color: #589232;
         }
 
         25% {
-            background-color: #b14abe;
+            background-color: #2b4e14;
         }
 
         50% {
-            background-color: #af42c5;
+            background-color: #365c1c;
         }
 
         75% {
-            background-color: #7b3585;
+            background-color: #37790b;
         }
 
         100% {
-            background-color: #aa32aa;
+            background-color: #3f5f29;
         }
     }
 
@@ -262,3 +242,6 @@
         font-size: larger;
         font-weight: 700;
     }
+
+
+    

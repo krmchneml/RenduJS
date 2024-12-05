@@ -41,6 +41,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
             div.setAttribute("class", "divreal");
             let h2real = document.createElement("h2");
             let p2real = document.createElement("p");
+            p2real.setAttribute("class", "p2real");
             let imgreal = document.createElement("img");
             h2real.textContent = element.titre;
             p2real.textContent = element.description;
